@@ -1,0 +1,225 @@
+
+.container .izquierdo {
+	position: relative;
+	background-image: url(../imagenes/backs-lacereza_01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1em;
+	border-right: none;
+	font-family: "Montserrat";
+	
+}
+
+.container .izquierdo p,
+.container .izquierdo h1 {
+	color: #efefef;
+}
+
+.container .derecho p {
+	margin: 14em 0 1em;
+}
+
+.container .derecho {
+	position: relative;
+	background-image: url(../imagenes/backs-lacereza_02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-left: none;
+	padding: 1em;
+	font-family: "Montserrat";
+}
+
+.container .derecho p,
+.container .derecho h1 {
+	color: #efefef;
+}
+
+.container .suave {
+	color: #efefefb7 !important;
+	margin-top: 2em;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	.logotipo {
+		margin: 1em 0;
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
+	}
+
+	p {
+		line-height: 1.7em;
+	}
+
+	.interno {
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 50% auto;
+		grid-template-columns: 50% auto;
+	}
+
+	.interno .izquierdo {
+		text-align: left;
+		padding: 0 2em;
+		height: 100vh;
+		display: -ms-grid;
+		display: grid;
+	}
+
+	.interno .izquierdo .contenedor {
+		padding: 0 3em;
+	}
+
+	.interno .izquierdo h1 {
+		margin: 0;
+		font-size: 2.4em;
+	}
+
+	.interno .izquierdo h1 span {
+		display: block;
+	}
+
+	.interno .derecho {
+		text-align: center;
+		/*align-self: center;*/
+		padding: 0 2em 1.5em;
+		/*margin-top: 40% ;*/
+		/*justify-self: center;*/
+	}
+
+	.interno .derecho input {
+		width: calc(100% - 1em);
+		margin: 1em 0;
+	}
+
+	.interno .derecho button {
+		width: 100% !important;
+	}
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgba(52, 53, 52, 0.63);
+	border-radius: 10px 10px 10px;
+	color: #fff;
+	z-index: 3;
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgb(235, 66, 66);
+	color: #fff;
+}
+h3 {
+	color: #fff;
+}
+.logotipo{
+	margin-left: 20%;
+	border-top: 40%;
+	width: 30%;
+}
+#titulo02{
+	color:#6e5773;
+	text-shadow: 2px 3px 4px #6e5773;
+}
+.suave{
+	color:#6e5773;
+	text-shadow:2px 3px 4px #6e5773;
+
+}
+.texto-justificado{
+	color: #dadbbd;
+	text-shadow:2px 3px 4px #dadbbd;
+}
+
+#quiero{
+	color: #dadbbd;
+	/*border: dashed 1px #23f034;*/
+	margin-right: 10%;
+	text-shadow:2px 3px 4px rgba(218, 219, 189, 0.678);
+}
+
+.combinaciones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+/*mapa*/
+/*registro*/
+.mapa{
+	
+	width: 100%;
+	height: 100vh;
+	background-color: #6e5773;
+
+}
+iframe{
+	margin-top: 50px;
+}
+
+#direccion{
+	margin-left: 150px;	
+	padding: 15px auto;
+	padding-top: 50px;	
+	font-family: "Montserrat";
+	font-size: 24px;
+	font-weight: 800;
+	color: #dadbbd;
+
+
+}
+.adress{
+	font-family: "Montserrat";
+	font-size: 18px;
+	font-weight: 800;
+	color: #dadbbd;
+
+
+
+}
+#direccion1{
+	margin-left: 150px;	
+	padding: 15px auto;
+	padding-top: 50px;	
+	font-family: "Montserrat";
+	font-size: 24px;
+	font-weight: 800;
+	color: #dadbbd;
+
+
+}
+.adress1{
+	font-family: "Montserrat";
+	font-size: 18px;
+	font-weight: 800;
+	color: #dadbbd;
+
+
+
+}
+.telefono{
+	font-family: "Montserrat";
+	font-size: 22px;
+	font-weight: 300;
+	color: #dadbbd;
+}
+.fa-phone{
+	font-family: "Montserrat";
+	font-size: 22px;
+	font-weight: 300;
+	color: #dadbbd;
+
+}

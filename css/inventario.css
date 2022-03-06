@@ -1,0 +1,272 @@
+@font-face {
+	font-family: "Monserrat";
+	src: url(../font/Montserrat-MediumItalic.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#de5b7b;
+    
+   
+}
+header .menu{
+    display:flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Monserrat";
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+
+/*NAVBAR-MENU*/
+.menu{
+    padding: 5px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*background: #333;*/
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    background-color:#de5b7b;
+  }
+  
+  .menu-item{
+    text-decoration: none;
+    color: white;
+    padding: .7em;
+    display: block;
+    flex: auto;
+    text-align: center;
+    height: 70px; 
+  }
+  
+  #dash{
+    background-color: #6e5773;
+  }
+  
+  .menu a:hover{
+    background-color: #6e5773;
+    color: #98ded3;
+  }
+  
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: #6e5773;
+  
+}
+.box {
+    
+    color: #98ded3;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border: 2px solid rgb(224, 222, 221);
+    border-radius: 10px 10px;
+    
+}
+
+.contenedor > div {
+      
+    padding: 5rem;
+}
+.d-flex-caja {
+    display: flex;
+    flex-wrap: wrap;
+    /*font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 300;*/
+}
+
+.d-flex-caja .box {
+    flex-basis: 33.3%;
+}
+#titulo1{
+    margin: 5px auto;
+    padding: 5px 5px 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e5773;
+    margin: -20px auto;
+    background-color: rgb(0, 132, 255);
+    
+
+}
+#titulo2{
+    margin: 5px auto;
+    padding: 5px 5px 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f2f2f2;
+    margin: -20px auto;
+    background-color: rgb(255, 0, 0);
+    
+
+}
+#titulo3{
+    margin: 5px auto;
+    padding: 5px 5px 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f2f2f2;
+    margin: -20px auto;
+    background-color: rgb(255, 0, 0);
+    
+
+}
+#titulo4{
+    margin: 5px auto;
+    padding: 5px 5px 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e5773;
+    margin: -20px auto;
+    background-color: rgb(0, 132, 255);
+    
+
+}
+#titulo5{
+    margin: 5px auto;
+    padding: 5px 5px 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e5773;
+    margin: -20px auto;
+    background-color: rgb(0, 132, 255);
+    
+
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background:url(../imagenes/dotb.png);
+    background-repeat: repeat;
+}
+.pie {
+	height: 20px;
+	background: linear-gradient(to right, #0af 40%, transparent 0);
+	background-color: #de5b7b;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    color: #98ded3;
+}
+
+@supports (background: conic-gradient(white, black)) {
+	.pie {
+		width: 300px; height: 300px;
+		background-image: conic-gradient(#0af 40%, transparent 0);
+		border-radius: 50%;
+        
+	}
+}
+
+
+.pie2 {
+    background: #de5b7b;
+    background-image: linear-gradient(to right, transparent 50%, rgb(255, 0, 0) 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    color: #98ded3;
+  }
+  
+  .pie2::before {
+    content: "";
+    background-color: inherit;
+    border-radius: 0 100% 100% 0 / 50%;
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    transform: rotate(.1turn);
+  }
+
+
+
+
+
+  .pie3 {
+    background: #de5b7b;
+    background-image: linear-gradient(to right, transparent 50%, rgb(255, 0, 0) 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    color: #98ded3;
+  }
+  
+  .pie3::before {
+    content: "";
+    background-color: inherit;
+    border-radius: 0 100% 100% 0 / 50%;
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    transform: rotate(.1turn);
+  }
+
+  .pie4 {
+	height: 20px;
+	background: linear-gradient(to right, #0af 40%, transparent 0);
+	background-color: #de5b7b;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    color: #98ded3;
+}
+
+@supports (background: conic-gradient(white, black)) {
+	.pie4 {
+		width: 300px; height: 300px;
+		background-image: conic-gradient(#0af 40%, transparent 0);
+		border-radius: 50%;
+        
+	}
+}
+
+.pie5 {
+    width: 300px; 
+    height: 300px;
+    /*border: 1px solid #de5b7b;*/
+    border-radius: 50%;
+    background: rgb(0, 132, 255);
+    background-image: linear-gradient(to right, transparent 50%, #de5b7b 0);
+    margin-right: 10px;
+    flex-shrink: 0;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    color: #98ded3;
+  }
+  
+  .pie5::before {
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: #de5b7b;;
+    transform-origin: left;
+    transform: rotate(60deg);
+  }
+  

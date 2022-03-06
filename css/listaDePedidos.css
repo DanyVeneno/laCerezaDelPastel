@@ -1,0 +1,114 @@
+@font-face {
+	font-family: "Monserrat";
+	src: url(../font/Montserrat-MediumItalic.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#de5b7b;
+    
+   
+}
+header .menu{
+    display:flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Monserrat";
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+
+/*NAVBAR-MENU*/
+.menu{
+    padding: 5px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*background: #333;*/
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    background-color:#de5b7b;
+  }
+  
+  .menu-item{
+    text-decoration: none;
+    color: white;
+    padding: .7em;
+    display: block;
+    flex: auto;
+    text-align: center;
+    height: 70px; 
+  }
+  
+  /*#dash{
+    background-color: #6e5773;
+  }*/
+  
+  .menu a:hover{
+    background-color: #6e5773;
+    color: #98ded3;
+}
+  
+.contenedor {
+    width: 100%;
+    /*max-width: 120rem;*/
+    margin: 0 auto;
+    background-color: #6e5773;
+  
+}
+.box {
+    
+    color: #98ded3;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border: 2px dashed #98ded3;
+    border-radius: 10px 10px;
+    gap: 3rem;
+    height: 200px;
+}
+    
+
+
+.contenedor > div {
+      
+    padding: 5rem;
+}
+.d-flex-caja {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.d-flex-caja .box {
+    flex-basis: 33.3%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background:url(../imagenes/dotb.png);
+    background-repeat: repeat;
+}
+h2{
+    font-family: "Monserrat";
+    font-size: 26px;
+    font-weight: 300;
+    color: #f2f2f2;
+
+}
+td{
+    font-size: 22px;
+    color: #98ded3;
+    padding: 10px;
+    border-bottom: solid 1px #98ded3 ;
+}
